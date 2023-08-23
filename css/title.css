@@ -1,0 +1,74 @@
+#title{  
+  background-image: url(../img/cgvx.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#title:hover{
+  background-size: 110%;
+}
+#title h1{  
+  color: white;
+  font-size: 40px;
+  line-height: 3;
+  position: absolute;
+  left: 400px;
+}
+#title .monster{  
+  position: absolute;
+  left: 400px;
+  bottom: 135px;
+}
+#title img{ 
+  display: flex;
+  width: 980px;
+  height: 450px;
+}
+#title li{ 
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+}
+#title .flex{ 
+  position: absolute;
+  left: 400px;
+  bottom: 70px;
+  cursor: pointer;
+}
+#title .flex li{
+  
+}
+#title .flex li:nth-child(1){
+  content: "";
+  background-color: #ccc;
+  border-radius: 15px;
+  background-image: url(../img/next.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  font-size: 0;
+}
+#title .flex li:nth-child(2){
+  content: "";
+  margin-left: 10px;
+  background-image: url(../img/play.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+}
+#title .flex li:nth-child(3){
+  content: "";
+  background-image: url(../img/sound.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+}

@@ -1,0 +1,49 @@
+section#fixd {
+}
+section#fixd div.wrap3 {
+  justify-content: flex-end;
+  position: fixed;
+  right: 0%;
+  bottom: 80px;
+  min-height: 75px;
+  text-align: center;
+  margin-left: 450px;
+}
+section#fixd div.wrap3 a{  
+  position: absolute;
+  left: auto;
+  right: 0px;
+  width: 136px;
+  padding: 12px 0 14px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.500em;
+  border-radius: 25px;
+  transition: right 0.4s;
+  opacity: 0;
+  pointer-events: none;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.21, #e63374), color-stop(0.47000000000000003, #da34e0), color-stop(0.93, #8a94ff));
+  background: -moz-linear-gradient(top, #e63374 21%, #da34e0 47%, #8a94ff 93%);
+  background: -webkit-linear-gradient(top, #e63374 21%, #da34e0 47%, #8a94ff 93%);
+  background: -o-linear-gradient(top, #e63374 21%, #da34e0 47%, #8a94ff 93%);
+  background: -ms-linear-gradient(top, #e63374 21%, #da34e0 47%, #8a94ff 93%);
+  background: linear-gradient(top, #e63374 21%, #da34e0 47%, #8a94ff 93%);
+}
+section#fixd div.wrap3 .btn_fixedTicketing{
+  right: 140px;
+  opacity: 1;
+  pointer-events: auto;
+}
+section#fixd div.wrap3 .btn_gotoTop{  
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 0.5s;
+}
+section#fixd div.wrap3 .btn_gotoTop:nth-child(2){  
+  position: relative;
+  right: 85px;
+  width: 50px;
+  height: 100%;
+}
+

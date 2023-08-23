@@ -1,0 +1,99 @@
+section#Goods {
+
+  padding-top: 50px;
+  right: -64px;
+  position: relative;
+}
+section#Goods div.wrap {
+  padding: 60px;
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  left: -70px;
+}
+section#Goods div.wrap a{
+  
+}
+section#Goods div.wrap article {
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  width: 270px;
+  padding: 20px 19px 30px;
+}
+section#Goods div.wrap article.package {
+
+}
+section#Goods div.wrap article.package h2 {
+  padding-top: 10px;
+  position: absolute;
+  top: 0;
+}
+section#Goods div.wrap article.package ul {
+
+}
+section#Goods div.wrap article.package ul li {
+
+}
+section#Goods div.wrap article.package ul li a {
+  display: flex;
+  line-height: 3;
+  height: 150px;
+  align-items: start;
+  gap: 20px;
+}
+section#Goods div.wrap .movie li a{
+  
+}
+section#Goods div.wrap article.package ul li a figure {
+
+}
+section#Goods div.wrap article.package ul li a figure img {
+
+}
+section#Goods div.wrap article.package ul li a h3 {
+  text-align: center;
+}
+section#Goods div.wrap article.package ul li a p {
+
+}
+/*  */
+section#Goods div.wrap article.movie {
+
+}
+section#Goods div.wrap article.movie h2 {
+  padding-top: 10px;
+  position: absolute;
+  top: 0;
+}
+section#Goods div.wrap article.movie ul li a h3{
+  text-align: center;
+}
+section#Goods div.wrap article.movie ul {
+
+}
+section#Goods div.wrap article.movie ul li {
+
+}
+section#Goods div.wrap article.movie ul li a {
+  display: flex;
+  line-height: 3;
+  height: 150px;
+  align-items: start;
+  gap: 20px;
+}
+section#Goods div.wrap article.gift h2 {
+  padding-top: 10px;
+  position: absolute;
+  top: 0;
+}
+section#Goods div.wrap article.gift ul li a h3{
+  text-align: center;
+}
+section#Goods div.wrap article.gift ul li a {
+  display: flex;
+  line-height: 3;
+  height: 150px;
+  align-items: start;
+  gap: 20px;
+}

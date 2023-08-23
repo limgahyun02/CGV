@@ -1,0 +1,100 @@
+section#moviechart {  
+  background-color: lightgray;
+}
+section#moviechart div.wrap {
+  
+  padding: 20px;
+}
+section#moviechart div.wrap h2 {  
+  display: flex;
+  line-height: 3;
+  font-size: 30px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+section#moviechart div.wrap h2:before{
+  content: "";
+  height: 20px;
+  position: absolute;
+  left: calc(50% + -14px);
+  border-left: 1px solid darkgray;
+}
+section#moviechart div.wrap ul {
+  gap: 100px;
+  display: flex;
+}
+section#moviechart div.wrap ul li { 
+  line-height: 1.5;
+  position: relative;
+}
+section#moviechart div.wrap ul li figure {
+  
+}
+section#moviechart div.wrap ul li figure img {
+  
+}
+section#moviechart div.wrap ul li h3 { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#moviechart div.wrap ul li p {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#moviechart div.wrap ul li span { 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  display: none;
+  line-height: 2;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+section#moviechart div.wrap ul li span a {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+section#moviechart div.wrap ul li span:hover a{
+  border-radius: 4px;
+}
+section#moviechart div.wrap ul li span a:nth-child(1){
+  background-color: white;
+}
+section#moviechart div.wrap ul li span a:nth-child(2){
+  background-color: red;
+  color: white;
+}
+section#moviechart div.wrap ul li:hover span {  
+  width: 170px;
+  opacity: 0.8;
+  height: 210px;
+  display: flex;
+  line-height: 2;
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
+  border-radius: 25px;
+  justify-content: center;
+}
+section#moviechart div.wrap a.more {
+  color: #222;
+  width: 100px;
+  right: 325px;
+  font-size: 14px;
+  margin-top: 26px;
+  position: absolute;
+  border-radius: 25px;  
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+}

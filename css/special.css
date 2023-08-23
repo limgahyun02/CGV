@@ -1,0 +1,43 @@
+section#special {
+  position: relative;
+  bottom: -50px;
+  left: -40px;
+}
+section#special div.wraptwo {
+
+  right: -45px;
+  position: relative;
+}
+section#special div.wraptwo h2 {
+  padding-left: 375px;
+  padding-top: 60px;
+  margin-bottom: 30px;
+}
+section#special div.wraptwo div.specialtwo {
+  background-image: url(../img/screen.png);
+  background-repeat: no-repeat;
+  background-position-x: 150px;
+  margin: 0 225px;
+  background-size: contain;
+  background-position-y: 10px;
+  overflow: hidden;
+}
+section#special div.wraptwo div.specialtwo article {
+  margin-left: 1000px;
+  display: flex;
+  height: 100px;
+  width: 950px;
+  justify-content: center;
+  flex-direction: column;
+}
+section#special div.wraptwo div.specialtwo article h3 {
+
+}
+section#special div.wraptwo div.specialtwo article p {
+
+}
+section#special div.wraptwo div.specialtwo article a.more {
+
+  background-color: black;
+  color: white;
+}

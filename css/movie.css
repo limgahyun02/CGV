@@ -1,0 +1,55 @@
+section#title {  
+  position: relative;
+}
+section#title div.wrap {
+  margin: 0 auto;
+  width: 1636px;
+  position: static;
+  padding: 5px 0;
+  border-bottom: 1px solid #fb4357;
+  border-top: 1px solid #eeeeee;
+}
+section#title div.wrap ul.movie1 {
+  margin: 0 auto;
+  width: 1636px;
+  position: static;
+  padding: 5px 0;
+  gap: 50px;
+}
+section#title div.wrap ul.movie1 li {
+  
+}
+section#title div.wrap ul.movie1 li a {
+  
+}
+section#title div.search{
+  position: absolute;
+  right: 157px;
+  display: flex;
+  gap: 20px;
+}
+section#title div.search0 form.cgv{
+  border: 1px solid #ccc;
+  width: 200px;
+  font-size: 0;
+  right: 220px;
+  position: absolute;
+  height: 20px;
+  top: 8px;
+}
+section#title div.wrap ul div a{
+ 
+  background-image: url(../img/search.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+}
+section#title div.wrap figure{
+  
+}
+section#title div.wrap figure img{
+  
+}

@@ -1,0 +1,54 @@
+section#menuone {
+  width: 100%;
+  background-color: #eee;
+}
+section#menuone div.wrap {
+  flex-direction: column;
+  position: relative;
+  background-color: #eee;
+}
+section#menuone div.wrap h2 {
+  line-height: 5;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+section#menuone div.wrap h2 a{
+  
+}
+section#menuone div.wrap ul {
+  display: flex;
+  width: 100%;
+  gap: 100px;
+  justify-content: center;
+}
+section#menuone div.wrap ul li {
+  display: flex;
+  flex-direction: column;
+  line-height: 3;
+  align-items: center;
+}
+section#menuone div.wrap ul li a {
+
+}
+section#menuone div.wrap ul p {
+
+}
+section#menuone div.wrap form {
+  position: absolute;
+  top: 80px;
+  right: 100px;
+}
+section#menuone div.wrap form a {
+  border: 1px solid #999;
+  border-radius: 15px;
+  box-shadow: 1px 2px 1px;
+  color: black;
+  padding: 4px 30px;
+}
+section#menuone div.wrap form a:hover{
+  content: "";
+  background-color: #F6F5F4;
+  transition: all 1s;
+  color: #0189ed;
+}
